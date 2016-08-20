@@ -9,4 +9,17 @@
 另外：以上核心参数优化，比较适合Web应用和数据库服务器的配置，其它用途的服务器建议先了解参数的含义，修改参数后再使用，因为不同的服务
 也许有更合适的参数。
 
+下载代码后，给文件加可执行权限：chmod +x shell/*
+##1.打开功能列表
+执行auto.sh
 <img src="./images/1.png" />
+
+##2.功能列表说明
+
+###2.1 【System Environment】
+###2.1 【Common Databases】
+###2.1 【Network Monitoring】
+###2.1 【Common Tools】
+
+##3.操作说明
+输入相应的序号即可执行操作。
