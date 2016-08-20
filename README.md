@@ -11,7 +11,8 @@
 
 **下载代码后，给文件加可执行权限：chmod -R +x shell/* **
 ##1. 功能列表
-执行auto.sh
+--执行auto.sh--
+
 <img src="./images/1.png" />
 
 ##2. 功能列表说明
