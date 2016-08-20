@@ -1,0 +1,15 @@
+#!/usr/bin/expect -f
+set doc [lindex $argv 0]
+
+set timeout 30
+spawn mongodump -h 59.172.25.150:23306 -u hb_rc\$@150 --authenticationDatabase admin -d hbrc -o $doc
+expect "Enter password:"
+send "q1w2e3r4^~\r"
+expect eof
+
+set timeout 30
+spawn mongodump -h 59.172.25.150:23306 -u hb_rc\$@150 --authenticationDatabase admin -d cms -o $doc
+expect "Enter password:"
+send "q1w2e3r4^~\r"
+expect eof
+exit
